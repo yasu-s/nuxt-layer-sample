@@ -6,12 +6,28 @@
 
 ## 実行環境
 
-- Node.js - 18.x
+- Node.js - 20.x
 - Yarn - 1.22.x
 
 ## 使用ライブラリ
 
 - nuxt - 3.6.x
+
+## 動作確認
+
+```bash
+# パッケージインストール
+$ yarn
+
+# nuxt-app実行 - http://localhost:3000, http://localhost:3000/layer1, http://localhost:3000/layer2
+$ yarn workspace @nuxt-layer-sample/nuxt-app run dev
+
+# layer1実行 - http://localhost:3000/layer1
+$ yarn workspace @nuxt-layer-sample/layer1 run dev
+
+# layer2実行 - http://localhost:3000/layer2
+$ yarn workspace @nuxt-layer-sample/layer2 run dev
+```
 
 ## 参考URL
 
