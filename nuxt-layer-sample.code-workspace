@@ -1,0 +1,40 @@
+{
+	"folders": [
+		{
+      "name": "root",
+			"path": "."
+		},
+    {
+      "name": "layer1",
+			"path": "./layer1"
+		},
+    {
+      "name": "layer2",
+			"path": "./layer2"
+		},
+    {
+      "name": "nuxt-app",
+			"path": "./nuxt-app"
+		}
+  ],
+  "settings": {
+    "files.insertFinalNewline": true,
+    "files.eol": "\n",
+    "files.encoding": "utf8",
+    "editor.tabSize": 2,
+    "editor.renderControlCharacters": true,
+    "editor.formatOnSave": false,
+    "[markdown]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "files.trimTrailingWhitespace": false,
+      "editor.formatOnSave": true
+    },
+  },
+  "extensions": {
+    "recommendations": [
+      "vue.volar",
+      "vue.vscode-typescript-vue-plugin",
+      "esbenp.prettier-vscode"
+    ]
+  },
+}
