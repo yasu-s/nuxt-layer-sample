@@ -1,0 +1,16 @@
+{
+  "name": "@nuxt-layer-sample/layer-lib",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "main": "./nuxt.config.ts",
+  "scripts": {
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "nuxt": "^3.6.2",
+    "typescript": "^4.9.3"
+  }
+}

@@ -1,3 +1,6 @@
 <template>
-  <div>Nuxt Layer Sample - layer1</div>
+  <div>
+    <div>Nuxt Layer Sample - layer1</div>
+    <CustomLabel />
+  </div>
 </template>

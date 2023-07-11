@@ -29,6 +29,15 @@ $ yarn workspace @nuxt-layer-sample/layer1 run dev
 $ yarn workspace @nuxt-layer-sample/layer2 run dev
 ```
 
-## 参考URL
+## ディレクトリ構成
+
+```
+├── layer-lib     ライブラリ用のNuxt Layer
+├── layer1        /layer1用のNuxt Layer
+├── layer2        /layer2用のNuxt Layer
+└── nuxt-app      Nuxt起動用
+```
+
+## 参考 URL
 
 - https://nuxt.com/docs/getting-started/layers

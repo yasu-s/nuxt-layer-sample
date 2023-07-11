@@ -1,6 +1,6 @@
 {
   "private": true,
-  "workspaces": ["layer1", "layer2", "nuxt-app"],
+  "workspaces": ["layer-lib", "layer1", "layer2", "nuxt-app"],
   "volta": {
     "node": "20.4.0",
     "yarn": "1.22.19"

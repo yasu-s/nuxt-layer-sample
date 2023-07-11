@@ -5,6 +5,10 @@
 			"path": "."
 		},
     {
+      "name": "layer-lib",
+			"path": "./layer-lib"
+		},
+    {
       "name": "layer1",
 			"path": "./layer1"
 		},

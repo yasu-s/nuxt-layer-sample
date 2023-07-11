@@ -29,6 +29,15 @@ $ yarn workspace @nuxt-layer-sample/layer1 run dev
 $ yarn workspace @nuxt-layer-sample/layer2 run dev
 ```
 
+## Directory structure
+
+```
+├── layer-lib     Nuxt Layer for libraries
+├── layer1        Nuxt Layer for /layer1
+├── layer2        Nuxt Layer for /layer2
+└── nuxt-app      For Nuxt launch
+```
+
 ## Reference URL
 
 - https://nuxt.com/docs/getting-started/layers
